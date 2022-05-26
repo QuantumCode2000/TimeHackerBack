@@ -1,5 +1,5 @@
 # TimeHackerBack DB
-'''
+```
 create table usuario(
 	id_usuario int identity not null,
 	nombre_usuario varchar(50) not null,
@@ -96,7 +96,6 @@ create table reloj(
 	constraint fk_elemento_reloj foreign key (id_elementos) references elementos(id_elementos)
 
 );
-'''
-
+```
 
 ![My Image](db.png)
